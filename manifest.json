@@ -2,11 +2,10 @@
  "manifest_version": 2,
  "name": "OBC Footy Ticker",
  "description": "An extension to display live EPL scores and other things to your default tab.",
- "version": "1",
+ "version": "1.0.0",
  "author": "Adam Adams & Robert Smith",
  
  "browser_action": {
-   "default_icon": "tab-icon.png",
    "default_title": "OBC Footy Ticker"
  },
  
@@ -14,5 +13,5 @@
   "newtab": "newtab.html"
  },
 
- "permissions": ["activeTab”]
+ "permissions": ["activeTab"]
 }   
