@@ -1,0 +1,28 @@
+{
+  "name": "OBCFootyTicker",
+  "version": "1.0.0",
+  "description": "An extension to display live EPL scores and other things to your default tab.",
+  "main": "index.js",
+  "repository": "https://github.com/ajadams/OBCFootyTicker.git",
+  "author": "Adam Adams & Robert Smith",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.8.3",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1"
+  }
+}
