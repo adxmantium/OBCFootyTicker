@@ -1,8 +1,8 @@
 {
  "manifest_version": 2,
  "name": "OBC Footy Ticker",
- "description": "An extension to display live EPL scores and other things to your new tab
-    default tab. Includes ratings, summaries and the ability to watch trailers.",
+ "description": "An extension to display live EPL scores and other things to your
+    default tab.",
  "version": "1",
  "author": "Adam Adams & Robert Smith",
  
