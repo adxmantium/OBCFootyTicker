@@ -7,10 +7,11 @@ import { Provider } from 'react-redux'
 
 // redux store
 import store from './store'
+import Root from './components'
 
 const RootComponent = (
 	<Provider store={ store }>
-		<div>Hello from Root React Component :)</div>
+		<Root />
     </Provider>
 )
 
