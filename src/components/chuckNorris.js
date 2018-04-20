@@ -1,6 +1,7 @@
 // /src/components/chuckNorris.js
 
 // libs
+import { connect } from 'react-redux'
 import React, { Component } from 'react'
 
 // actions
