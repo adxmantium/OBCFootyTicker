@@ -1,15 +1,16 @@
+// /src/components/index.js
+
 import React, { Component } from "react"
 
-import { getChuckNorrisQuote } from './../actions'
+import ChuckNorris from './chuckNorris'
 
 export default class Root extends Component{
-	componentDidMount(){
-		getChuckNorrisQuote();
-	}
-
 	render(){
 		return (
-			<div>root component</div>
+			<div>
+				Root component!
+				<ChuckNorris />
+			</div>
 		);
 	}
 }

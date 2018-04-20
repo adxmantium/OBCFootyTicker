@@ -6,7 +6,7 @@ import promise from 'redux-promise-middleware'
 import { createStore, applyMiddleware, combineReducers } from 'redux'
 
 // Reducers
-import _footy from './reducers'
+import _store from './reducers'
 
 //create and combine middleware
 // -- dev 
@@ -17,7 +17,7 @@ const middleware = applyMiddleware(thunk, promise(), logger);
 
 //combine all reducers
 const reducers = combineReducers({
-	_footy
+	_store
 });
 
 // Create Store
